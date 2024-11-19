@@ -1,0 +1,23 @@
+Colour-based Object Detector
+
+- Check if number of input arguments are correct for given mode and exit if incorrect
+
+Show Calibration File
+- If calibration file could not open exit
+- Read the data from the text file and display in required format
+
+Calibration
+- Read bmp file and establish the starting point (bottom left) of centre window 
+- Store the hues of each pixel in the centre window above the threshold of saturation and value
+- Sort the hues in ascending order with duplicates as neighbours
+- Determine the middle hue and max hue difference of stored hues
+- Display calibration data
+
+Detection
+- Read and make a copy of the image
+- If calibration file could not open exit
+- Check each pixel based on calibration data
+- Write potential objects as white and everything else as black in threshold image
+- Perform recursive Depth First Search on each potential object pixel and its neighbours which havent been visited yet
+- Find distinct regions greater then 20x20 and print bounding box around object
+
