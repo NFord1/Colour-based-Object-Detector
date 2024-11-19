@@ -95,7 +95,7 @@ Detected blueblob: 251 193 38 27
 - Standard C libraries
 
 ## Learn More
-For a more detailed overview of the project visit [Colour-based Object Detector.pdf](Colour-based Object Detector.pdf)
+For a more detailed overview of the project visit [Colour-based Object Detector.pdf](./Colour-based%20Object%20Detector.pdf)
 
 ## License
 
