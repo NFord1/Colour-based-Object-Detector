@@ -94,6 +94,9 @@ Detected blueblob: 251 193 38 27
 - GCC (GNU Compiler Collection)
 - Standard C libraries
 
+## Learn More
+For a more detailed overview of the project visit [Colour-based Object Detector.pdf](Colour-based Object Detector.pdf)
+
 ## License
 
 This project is licensed under the MIT License.
